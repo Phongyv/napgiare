@@ -8,50 +8,7 @@
   display: flex;
   flex-direction: column;
 }
-.header{  
-    display: flex;
-    height: 60px;
-    justify-content: space-around;
-    border-bottom: 0.5px solid rgb(255, 224, 70);
-    background-color: #fff;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-.header-left{
-    width: 100px;
-    height: 60px;
-}
-.header-center{
-    display: flex;
-    justify-content: space-between;
-}
-.header-center_item{
-    text-decoration: none;
-    width: 150px;
-    height: 20px;
-    padding: 20px 0;
-    text-align: center;
-    margin: auto 10px;
-    font-weight: 800;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.header-center_item:hover{
-    color: red;
-    background-color: rgba(250, 235, 215, 0.486);
-    transform: scale(1.1);
-}
-.header-right{
-    width: 40px;
-    height: 40px;
-    padding: 8px;
-    margin: auto 0;
-    cursor: pointer;
-}
-.header-right:hover{
-    border-radius: 50%;
-    background-color: antiquewhite;
-}
+
 
 .body{
     padding: 40px;

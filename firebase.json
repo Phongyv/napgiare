@@ -1,7 +1,7 @@
 {
   "hosting": {
-    "site": "napgiare",
-    "public": "public",
+    "site":"napgiare",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -2,22 +2,9 @@ import '../Css/Home.css'
 import { Link } from 'react-router-dom';
 
 
-
 function Home(){
     return(
         <div className="home">
-
-          <header className='header'>
-          <img className='header-left' src='https://www.citypng.com/public/uploads/preview/hd-dragon-ball-z-kakarot-logo-png-701751694706719t409cehnxw.png' alt=''></img>
-          <div className='header-center'>
-            <Link className='header-center_item'>🏠 TRANG CHỦ</Link>
-            <Link className='header-center_item'>🛒 SHOP ACC</Link>
-            <Link className='header-center_item'>🎁 MINI GAME</Link>
-            <Link className='header-center_item'>💵 NẠP</Link>
-            <Link className='header-center_item'>📬 HỖ TRỢ</Link>
-          </div>
-          <img className='header-right' src='https://cdn-icons-png.flaticon.com/512/149/149071.png' alt=''></img>
-          </header>
 
           <div className='body'>
             <img className='body-top' src={'https://firebasestorage.googleapis.com/v0/b/pbet69-e8e73.appspot.com/o/VQ-KIM-CUONG-FREE-FIRE.gif?alt=media&token=5a2a9cb3-48bc-4d5b-b610-28ea01db4d26'} alt=''></img>
@@ -172,7 +159,7 @@ function Home(){
             <span className='footer-text'>© Copyright 2024 - Privacy Policy - Terms of Service</span>
             <span className='footer-text'>Operated by Byyou, All Rights Reserved</span>
           </footer>
-
+          
         </div>
     );
 };
